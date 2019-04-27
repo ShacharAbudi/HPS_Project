@@ -5,9 +5,9 @@ slides: index.ipynb
 init: .git/
 
 .git/:
-	curl --user 'marskar' https://api.github.com/user/repos --data '{"name":"ds101","description":"A presentation about data science basics."}'
+	curl --user 'ShacharAbudi' https://api.github.com/user/repos --data '{"name":"HPS_Project","description":"A presentation about HPS."}'
 	git init
 	git add --all
 	git commit --message "First commit"
-	git remote add origin https://github.com/marskar/ds101.git
+	git remote add origin https://github.com/ShacharAbudi/HPS_Project.git
 	git push --set-upstream origin master
